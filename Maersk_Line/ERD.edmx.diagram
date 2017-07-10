@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="027fdb0aec6549beb7b6e61f0d9313e4" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="MaersklineDBModel.Booking" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="MaersklineDBModel.Container" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MaersklineDBModel.Employee" Width="1.5" PointX="5.125" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="MaersklineDBModel.Ship" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MaersklineDBModel.ShipYard" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MaersklineDBModel.sysdiagram" Width="1.5" PointX="11.875" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MaersklineDBModel.Warehouse" Width="1.5" PointX="4.875" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="MaersklineDBModel.FK_dbo_Bookings_dbo_Containers_ContainerID" ManuallyRouted="false" />
+        <AssociationConnector Association="MaersklineDBModel.FK_dbo_Bookings_dbo_Ships_ShipCode" ManuallyRouted="false" />
+        <AssociationConnector Association="MaersklineDBModel.FK_dbo_Bookings_dbo_ShipYards_ShipyardID" ManuallyRouted="false" />
+        <AssociationConnector Association="MaersklineDBModel.FK_dbo_Bookings_dbo_Warehouses_WarehouseID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
